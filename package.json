@@ -1,0 +1,19 @@
+{
+  "name": "holman-water",
+  "version": "1.0.0",
+  "description": "A simple interface to Holman Smart Gardening water tap devices via noble, allowing control of the manual timer function, and checking the current tap state",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "IOT",
+    "Home Automation"
+  ],
+  "author": "Phoenix Fox",
+  "license": "ISC",
+  "dependencies": {
+    "noble-mac": "git+https://github.com/Timeular/noble-mac.git",
+    "xpc-connection": "git://github.com/taoyuan/node-xpc-connection.git"
+  }
+}
